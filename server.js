@@ -18,7 +18,7 @@ const httpServer = createServer(app);
 // Initialize the Socket.IO server with the HTTP server
 const io = new Server(httpServer, {
     cors: {
-        origin: "http://localhost:5173",  // Your front-end server's URL
+        origin: "https://tic-tac-toe-client-delta.vercel.app/",  // Your front-end server's URL
         methods: ["GET", "POST"]
     }
 });
