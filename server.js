@@ -20,7 +20,7 @@ const io = new Server(httpServer, {
     cors: {
         origin: [
             "https://tic-tac-toe-client-delta.vercel.app",
-            "http://localhost:5173/"
+            "http://localhost:5173"
         ],
         methods: ["GET", "POST"],
         allowedHeaders: ['Content-Type'],
